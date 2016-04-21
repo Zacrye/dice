@@ -1,0 +1,71 @@
+#dice_space div{
+  position: relative;
+  margin-top: 5px;
+  left: 50%;
+  transform: translateY(200%) translateX(-50%);
+}
+
+.height_width{
+  height: 80px;
+  width: 80px;
+  background-color: lightblue;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.dot{
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  background-color: black;
+  display: block;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.top_left {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translateY(-20%) translateX(-20%);
+}
+
+.bottom_right{
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translateX(-80%) translateY(-80%);
+}
+
+.top_middle{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20%);
+}
+
+.bottom_middle{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-80%);
+}
+
+.top_right{
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  transform: translateY(-20%) translateX(-80%);
+}
+
+.bottom_left{
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translateX(-20%) translateY(-80%);
+}
